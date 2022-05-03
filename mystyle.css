@@ -1,0 +1,53 @@
+body {
+  height: 100%;
+  background: linear-gradient(#eeaeca, #94bbe9);
+}
+.title {
+  font-family: fantasy;
+}
+
+.container {
+  padding: 25px 5%;
+}
+.form__container {
+  margin-bottom: 5px;
+  padding: 8px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: white;
+  background: linear-gradient(#6495ed, #1e90ff);
+  border-radius: 8px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 3px 3px -2px,
+    rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
+}
+
+.joke__container {
+  justify-content: space-around;
+  margin: 8px 0px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 3px 3px -2px,
+    rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
+}
+
+.joke__button {
+  font-family: "Lucida Console", "Courier New";
+  padding: 8px;
+  margin: 4px;
+  background-color: #6495ed;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.joke__button:hover {
+  background-color: #4179dc;
+}
+
+.joke {
+  margin: 8px;
+  margin-bottom: 16px;
+  margin-left: 24px;
+}

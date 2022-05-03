@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Joker Interface</title>
+</head>
+<body>
+    <div class='container'>
+  <h3 class='title'>Joker Interface</h3>
+  <div class='form__container'>
+    
+    <div class='number__input'>
+        <p>Numero de chistes</p>
+      <select id='numberOfJokes'>
+        <option value=1>1</option>
+        <option value=2>2</option>
+        <option value=3>3</option>
+        <option value=4>4</option>
+        <option value=5>5</option>
+        <option value=6>6</option>
+        <option value=7>7</option>
+        <option value=8>8</option>
+        <option value=9>9</option>
+        <option value=10>10</option>
+      </select>
+      </div>
+    <div class='type__input'>
+      <p>Tipo de chiste</p>
+      <label>
+      <input id="singleJoke" name="type" type='radio' checked/>single
+        </label>
+      <input id="twoJoke" name="type" type='radio' />twopart
+        </label>
+    </div>
+  </div>
+
+<div><ol class='joke__container' id='chiste'></ol></div>
+<button class='joke__button' onclick='AddMe()'>click</button>
+<button class='joke__button' onclick='ClearAll()'>Clear</button>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
